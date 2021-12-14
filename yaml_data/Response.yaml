@@ -1,0 +1,232 @@
+## 测试搜索商品的预期响应结果
+Product_Response: [
+  {
+    "num_iid": "626168878736",
+    "cid": "50012773",
+    "verify_cid": "234",
+    "taobao_user_id": "35255526",
+    "title": "测试商品4不对外出售",
+    "short_name": "测试商品简称9",
+    "price": "97.90",
+    "outer_iid": "0",
+    "nr_outer_iid": "0",
+    "position_code": "",
+    "pic_url": "https://img.alicdn.com/bao/uploaded/i2/35255526/O1CN01ycfWsq1qgxHMXcTYe-35255526.jpg",
+    "m_id": "0",
+    "cost": "0.00",
+    "type": "0",
+    "create_time": "2021-10-26 16:14:14",
+    "category": {
+      "cid": "50012773",
+      "name": "睡袍/浴袍"
+    },
+    "history": [
+      {
+        "num_iid": "626168878736",
+        "real_payment": "97.90",
+        "theory_payment": "97.90"
+      },
+      {
+        "num_iid": "626168878736",
+        "real_payment": "0.10",
+        "theory_payment": "0.10"
+      },
+      {
+        "num_iid": "626168878736",
+        "real_payment": "0.01",
+        "theory_payment": "0.01"
+      },
+      {
+        "num_iid": "626168878736",
+        "real_payment": "0.00",
+        "theory_payment": "0.01"
+      }
+    ],
+    "verify": {
+      "id": "234",
+      "title": "A2"
+    },
+    "storehouse": [ ],
+    "combo": null,
+    "min_payment": "0.00",
+    "max_payment": "97.90"
+  }
+]
+#测试单个商品获取sku列表详情数据==>预期响应结果
+rpc_sku_lists_api_response: {
+  "sku_id": "4438685677898",
+  "outer_iid": "ce12457812",
+  "outer_sku_id": "ce12457813",
+  "taobao_user_id": "35255526",
+  "nr_outer_iid": "ce12457812",
+  "num_iid": "625880701144",
+  "short_name": "",
+  "quantity": "0",
+  "price": "8.00",
+  "barcode": null,
+  "position_sku_code": "",
+  "properties_name": "颜色分类:白色连体衣单件;尺码:均码",
+  "m_id": "0",
+  "cost": "0.00",
+  "pic_url": "",
+  "num": "0",
+  "storehouse": [ ],
+  "combo": null,
+  "combo_info": {
+    "id": "333",
+    "combo_id": "62",
+    "taobao_user_id": "35255526",
+    "num_iid": "0",
+    "sku_id": "4438685677898",
+    "outer_iid": "",
+    "barcode": "",
+    "title": "测试商品1不对外出售",
+    "sku_properties_name": "颜色分类:白色连体衣单件;尺码:均码",
+    "price": "8.00",
+    "num": "1",
+    "created": "2021-08-31 17:25:27"
+  },
+  "product": {
+    "num_iid": "625880701144",
+    "title": "测试商品1不对外出售",
+    "pic_url": "https://img.alicdn.com/bao/uploaded/i2/35255526/O1CN01BcnuSj1qgxHNfSr3e_!!0-item_pic.jpg"
+  },
+  "combo_id": 0,
+  "in_combo": 1
+}
+#单个商品sku绑定组合的详情列表==>预期数据
+rpc_product_combo_list_api_response: {
+  "combo_id": "66",
+  "taobao_user_id": "35255526",
+  "title": "测试套盒37",
+  "num_iid": "0",
+  "outer_iid": "",
+  "sku_id": "0",
+  "outer_sku_id": "",
+  "count": "3",
+  "total_num": "3",
+  "barcode": "",
+  "type": "2",
+  "desc": "",
+  "created": "2021-08-31 17:28:19",
+  "info": [
+    {
+      "id": "348",
+      "combo_id": "66",
+      "taobao_user_id": "35255526",
+      "num_iid": "0",
+      "sku_id": "4696478775577",
+      "outer_iid": "",
+      "barcode": "",
+      "title": "女士衬衫10件（服务市场测试专用，不对外销售）",
+      "sku_properties_name": "颜色分类:浅灰色;尺码:2XL",
+      "price": "5.00",
+      "num": "1",
+      "created": "2021-08-31 17:28:19",
+      "product": {
+        "num_iid": "0",
+        "pic_url": null
+      }
+    },
+    {
+      "id": "349",
+      "combo_id": "66",
+      "taobao_user_id": "35255526",
+      "num_iid": "0",
+      "sku_id": "573934164201",
+      "outer_iid": "",
+      "barcode": "",
+      "title": "男士衬衫服务市场测试专用",
+      "sku_properties_name": "1",
+      "price": "5.00",
+      "num": "1",
+      "created": "2021-08-31 17:28:19",
+      "product": {
+        "num_iid": "0",
+        "pic_url": null
+      }
+    },
+    {
+      "id": "352",
+      "combo_id": "66",
+      "taobao_user_id": "35255526",
+      "num_iid": "0",
+      "sku_id": "3981540297803",
+      "outer_iid": "",
+      "barcode": "",
+      "title": "女士衬衫10件（服务市场测试专用，不对外销售）",
+      "sku_properties_name": "1",
+      "price": "5.00",
+      "num": "1",
+      "created": "2021-08-31 17:28:19",
+      "product": {
+        "num_iid": "0",
+        "pic_url": null
+      }
+    }
+  ]
+}
+#提取商品接口==>预期响应数据
+Withdraw_goods_response: {
+  "code": 0,
+  "sub_code": "error",
+  "msg": "请求错误",
+  "status": 200,
+  "data": [
+    {
+      "num_iid": "626458019944",
+      "cid": "50012771",
+      "verify_cid": "234",
+      "taobao_user_id": "35255526",
+      "title": "测试商品2不对外出售",
+      "price": "69.00",
+      "outer_iid": "0",
+      "nr_outer_iid": "0",
+      "type": "0",
+      "sku_id": "4606578546255",
+      "outer_sku_id": "0",
+      "sku_properties_name": "颜色分类:白色睡袍;尺码:160(M)",
+      "is_free": "0",
+      "status_string": ""
+    }
+  ]
+}
+#商品简称的数据校验
+taobao_user_nick: 'wangweilon'
+#修改单个商品的Sku简称接口==>预期数据
+修改单个商品的Sku简称_预期数据: { "code": 0,"status": 200,"msg": "success" }
+#导入查看,导入成功后的==>预期数据
+导入查看成功的_预期数据: { 'status': 200, 'sub_code': 'success', 'msg': '请求成功', 'data': { 'errorData': [ ], 'errorNum': 0, 'successNum': 1 } }
+导入查看_删除已导入数据: { "status": 200,"sub_code": "success","msg": "清理成功" }
+# 底单查询==>详细记录--->获取数据接口==>预期数据
+底单查询详细数据_预期数据: 1637737729001004
+# 底单查询==>汇总报表-->获取数据接口==>预期数据
+底单查询汇总报表_预期数据: { "code": 0,"status": 200,"sub_code": "success","msg": "数据加载成功","data": [ { "express_code": "OTHER","express_name": "其他","total_num": "5","send_num": "1","get_invoice_time": "2021-11-24 10:36:34" } ] }
+#扫描发货==>扫描运单号-->获取数据==>预期数据
+扫描发货_预期数据: { "status": 200,"sub_code": "success","msg": "加载数据成功！","data": { "exp_order_id": "1637819200001001","trade_id": "2051250978008657109","invoice_no": "163781920177709","status": "103","buyer_nick": "tb100502162","tid": "2051250978008657109","receiver_name": "菠**","receiver_mobile": "**********4","address": "浙江省 杭州市 上城区 九*街道近**路商品交易中**楼***","goodsList": [ { "exp_info_id": "327881","exp_order_id": "1637819200001001","trade_id": "2051250978008657109","oid": "2051250978008657109","status": "103","outer_iid": "","outer_sku_id": "","refund_status": "0","title": "测试_国内商品测试_内部使用_请勿购买","sku_properties_name": "","num": 1,"check_num": 0 } ],"goodsTotalNum": 1 } }
+#漏单检测==>接口返回预期数据
+漏单检测_预期数据: { "status": 200,"sub_code": "success","msg": "无漏单","data": { "localNum": 0,"remoteNum": 0,"orderTid": [ ] } }
+#账单中心==>重新分析==>接口返回msg字段
+账单中心重新分析_预期数据_msg: "任务提交成功、请等待任务执行..."
+#账单中心==>组合查询&&默认请求的预期数据 &&#订单列表==>预期数据
+账单中心_组合查询_默认请求_预期数据: "数据加载成功"
+#切换店铺的相应数据==>用做接口数据返回校验
+切换店铺预期响应数据:
+  - - 200
+    - success
+    - 店铺切换成功
+#关联店铺接口==>预期相应数据
+关联店铺预期响应数据:
+  - - 获取成功
+    - { }
+#更新店铺代码的接口预期响应数据
+更新店铺代码响应数据: 店铺编码已更新
+#修改主店铺的店铺简称的接口预期响应数据
+修改主店铺的店铺简称_预期响应数据: { "code": 0,"status": 200,"sub_code": "success","msg": "店铺简称已更新","data": 1 }
+# 修改子店铺的店铺简称的接口预期响应数据
+修改子店铺的店铺简称_预期响应数据:
+  - - { "status": 200,"sub_code": "success","msg": "编辑成功" }
+    - {'status': 201, 'sub_code': 'error', 'msg': '修改失败'}
+# 解除子店铺绑定/关联的接口预期响应数据
+解除子店铺_预期响应数据: { "status": 200,"sub_code": "success","msg": "删除成功" }
+绑定店铺响应数据: 店铺绑定成功

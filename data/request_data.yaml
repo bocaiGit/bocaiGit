@@ -1,0 +1,61 @@
+对账分类修改数据:
+  - { "id": "177","pid": "0","title": "A","rate": "1","sort": "105","lock": "1","status": "0" }
+  - { "id": null,"pid": "266","title": "自动化_1","rate": "5","sort": "100","lock": "0","status": "0" }
+
+商品简称列表数据:
+  - { "dataString": "{\"cid\":\"\",\"keywords\":\"\",\"product_type\":\"num_iid\"}","page": 1,"limit": 20 }
+  - { "dataString": "{\"cid\":\"50012771\",\"keywords\":\"626458019944\",\"product_type\":\"num_iid\"}","page": 1,"limit": 20 }
+商品简称修改单个商品的Sku简称:
+  - { "sku_id": "2955918671901","short_name": "自动化测试商品sku简称修改002" }
+导入查看_前端已处理好的数据:
+  - { "importData": [ { "goods_name": "宝藏欧巴- 福神 后背大标T恤","goods_code": "3499913695713190516","goods_img": "https://sf1-ttcdn-tos.pstatp.com/obj/temai/371a15a3f8add9ec721886d34eb53ca4www1080-1080","goods_specification": "白色 S（110斤） ","specification_code": "ET5UTS902WH00S","platform_goods_id": "3499913695713190516","platform_specification_id": "1710121431908355","matching_status": "已匹配","goods_price": "79","goods_num": "0","product_name": "M背后大logoT恤 白色S","product_number": "ET5UTS902WH00S","product_specification": "默认规格","product_bar": "ET5UTS902WH00S","specification_img": "","specification_price": "79","specification_num": "9","sale_url": "","taobao_user_id": "35255526" } ] }
+导入查看列表数据详情_组合查询:
+  - { "page": 1,"limit": 20 }
+  - { "page": 1,"limit": 20,"goods_name": "宝藏欧巴- 福神 后背大标T恤","goods_code": "3499913695713190516" }
+删除已导入数据:
+  - { }
+底单查询详细记录数据:
+  - { "order_type": "","time_type": "2","time": "2021-11-23 00:00:00到2021-11-25 23:59:59","original_status": "","buyer_key": "1","buyer_value": "","province": "","express_code": "","num_type": "1","order_number": "","uid": "","print_next": "0","page": 1,"limit": 20,"buyer_nick": "" }
+底单查询汇总报表数据:
+  - { "order_type": "","time_type": "2","time": "2021-11-23 00:00:00到2021-11-25 23:59:59","original_status": "","buyer_key": "1","buyer_value": "","province": "","express_code": "","num_type": "1","order_number": "","uid": "","print_next": "0","page": 1,"limit": 20,"buyer_nick": "" }
+扫描发货请求数据:
+  - { "invoice_no": "163781920177709" }
+支付宝删除请求数据:
+  - { "id": "6645" }
+账单中心_重新分析_请求数据:
+  - { "dataString": "{\"date\":\"2021-11-01 00:00:00~2021-11-29 23:59:59\",\"timeType\":\"end_time\",\"event\":\"lay_analysis\"}" }
+  - { "dataString": "{\"date\":\"2021-11-01 00:00:00~2021-11-29 23:59:59\",\"timeType\":\"end_time\",\"event\":\"lay_export\"}" }
+账单中心_搜索默认_请求数据:
+  - { "page": 1,"limit": 20,"dataString": "%7B%22timeType%22:%22end_time%22,%22date%22:%222021-11-01%2000:00:00~2021-11-29%2023:59:59%22,%22verify_cid%22:%2299999%22,%22tid%22:%222265408398260657109%22%7D" }
+  - { "page": 1,"limit": 20,"dataString": "%7B%22timeType%22:%22end_time%22,%22date%22:%22%22,%22verify_cid%22:%220%22,%22tid%22:%22%22%7D" }
+订单列表请求参数_8:
+  - { "is_lock": "2","time_type": "1","time": "","type": "3","keyword": "","keyword2": "","keyword3": "","order_number_type": "1","is_get_invoice_sub": "","is_print_express": "","is_print_invoice": "","is_message": "","is_unpack": "","is_not_refund": "","layId": "1003","seller_flag": [ ],"trade_id": [ ],"page": 1,"limit": 20,"receiver_name": "","buyer_nick": "","sort_type": "","sort_order": "" }
+  - { "is_lock": "2","time_type": "1","time": "","type": "3","keyword": "","keyword2": "","keyword3": "","order_number_type": "1","is_get_invoice_sub": "","is_print_express": "","is_print_invoice": "","is_message": "","is_unpack": "","is_not_refund": "","layId": "1002","seller_flag": [ ],"trade_id": [ ],"page": 1,"limit": 20,"receiver_name": "","buyer_nick": "","sort_type": "consign_time","sort_order": "desc" }
+  - { "is_lock": "2","time_type": "1","time": "","type": "3","keyword": "","keyword2": "","keyword3": "","order_number_type": "1","is_get_invoice_sub": "","is_print_express": "","is_print_invoice": "","is_message": "","is_unpack": "","is_not_refund": "","layId": "10032","seller_flag": [ ],"trade_id": [ ],"page": 1,"limit": 20,"receiver_name": "","buyer_nick": "","sort_type": "consign_time","sort_order": "desc" }
+  - { "is_lock": "2","time_type": "1","time": "","type": "3","keyword": "","keyword2": "","keyword3": "","order_number_type": "1","is_get_invoice_sub": "","is_print_express": "","is_print_invoice": "","is_message": "","is_unpack": "","is_not_refund": "","layId": "1004","seller_flag": [ ],"trade_id": [ ],"page": 1,"limit": 20,"receiver_name": "","buyer_nick": "","sort_type": "consign_time","sort_order": "desc" }
+  - { "is_lock": "2","time_type": "1","time": "","type": "3","keyword": "","keyword2": "","keyword3": "","order_number_type": "1","is_get_invoice_sub": "","is_print_express": "","is_print_invoice": "","is_message": "","is_unpack": "","is_not_refund": "","layId": "1005","seller_flag": [ ],"trade_id": [ ],"page": 1,"limit": 20,"receiver_name": "","buyer_nick": "","sort_type": "consign_time","sort_order": "desc" }
+  - { "is_lock": "2","time_type": "1","time": "","type": "3","keyword": "","keyword2": "","keyword3": "","order_number_type": "1","is_get_invoice_sub": "","is_print_express": "","is_print_invoice": "","is_message": "","is_unpack": "","is_not_refund": "","layId": "1007","seller_flag": [ ],"trade_id": [ ],"page": 1,"limit": 20,"receiver_name": "","buyer_nick": "","sort_type": "consign_time","sort_order": "desc" }
+  - { "is_lock": "2","time_type": "1","time": "","type": "3","keyword": "","keyword2": "","keyword3": "","order_number_type": "1","is_get_invoice_sub": "","is_print_express": "","is_print_invoice": "","is_message": "","is_unpack": "","is_not_refund": "","layId": "1008","seller_flag": [ ],"trade_id": [ ],"page": 1,"limit": 20,"receiver_name": "","buyer_nick": "","sort_type": "consign_time","sort_order": "desc" }
+  - { "is_lock": "2","time_type": "1","time": "","type": "3","keyword": "","keyword2": "","keyword3": "","order_number_type": "1","is_get_invoice_sub": "","is_print_express": "","is_print_invoice": "","is_message": "","is_unpack": "","is_not_refund": "","layId": "1001","seller_flag": [ ],"trade_id": [ ],"page": 1,"limit": 20,"receiver_name": "","buyer_nick": "","sort_type": "consign_time","sort_order": "desc" }
+退款订单列表请求参数_8:
+  - { "time": "1","time_value": "","name": "1","name_value": "","desc": "","refund_phase": "all","order_no": "1","order_no_value": "","reason": "","type": "0","price": "1","price_min": "","price_max": "","number": "","number_value": "","layId": "20000","seller_flag": [ ],"page": 1,"limit": 20 }
+  - { "time": "1","time_value": "","name": "1","name_value": "","desc": "","refund_phase": "all","order_no": "1","order_no_value": "","reason": "","type": "0","price": "1","price_min": "","price_max": "","number": "","number_value": "","layId": "20001","seller_flag": [ ],"page": 1,"limit": 20 }
+  - { "time": "1","time_value": "","name": "1","name_value": "","desc": "","refund_phase": "all","order_no": "1","order_no_value": "","reason": "","type": "0","price": "1","price_min": "","price_max": "","number": "","number_value": "","layId": "20002","seller_flag": [ ],"page": 1,"limit": 20 }
+  - { "time": "1","time_value": "","name": "1","name_value": "","desc": "","refund_phase": "all","order_no": "1","order_no_value": "","reason": "","type": "0","price": "1","price_min": "","price_max": "","number": "","number_value": "","layId": "20003","seller_flag": [ ],"page": 1,"limit": 20 }
+  - { "time": "1","time_value": "","name": "1","name_value": "","desc": "","refund_phase": "all","order_no": "1","order_no_value": "","reason": "","type": "0","price": "1","price_min": "","price_max": "","number": "","number_value": "","layId": "20004","seller_flag": [ ],"page": 1,"limit": 20 }
+  - { "time": "1","time_value": "","name": "1","name_value": "","desc": "","refund_phase": "all","order_no": "1","order_no_value": "","reason": "","type": "0","price": "1","price_min": "","price_max": "","number": "","number_value": "","layId": "20006","seller_flag": [ ],"page": 1,"limit": 20 }
+  - { "time": "1","time_value": "","name": "1","name_value": "","desc": "","refund_phase": "all","order_no": "1","order_no_value": "","reason": "","type": "0","price": "1","price_min": "","price_max": "","number": "","number_value": "","layId": "20005","seller_flag": [ ],"page": 1,"limit": 20 }
+  - { "time": "1","time_value": "","name": "1","name_value": "测试软件，请勿购买","desc": "","refund_phase": "all","order_no": "2","order_no_value": "2255241528308657109","reason": "","type": "0","price": "1","price_min": "","price_max": "","number": "","number_value": "","layId": "20005","seller_flag": [ ],"page": 1,"limit": 20 }
+切换店铺请求数据:
+  - { "checkList": { "35255526": 1,"3274423934": -1,"2201401697614": -1 } }
+  - { "checkList": { "35255526": 1,"3274423934": 1,"2201401697614": -1 } }
+  - { "checkList": { "35255526": -1,"3274423934": -1,"2201401697614": -1 } }
+  - { "checkList": { "35255526": 1,"3274423934": 1,"2201401697614": 1 } }
+修改主店铺的店铺简称:
+  - - { "nick": "王" }
+修改子店铺的店铺简称:
+  - - { "shop_switch_id": "27","nick": "t" }
+解除子店铺的绑定_关联:
+  - - { "bind_taobao_user_id": "3274423934" }
+绑定子店铺_请求数据:
+  - - { "platform": "1","switchCode": "cb628ff07ae2ee50828e5c940ea5dbe6","status": "1" }

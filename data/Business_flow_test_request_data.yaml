@@ -1,0 +1,31 @@
+#此数据会有pytest的迭代器处理,不要更改文件格式
+#多店铺解密的请求数据
+多店铺解密请求数据:
+  - { "tids": [ "2293774308355657109" ] }
+  - { "tids": [ "2295363314316657109" ] }
+  - { "tids": [ "2294989813287657109" ] }
+  - { "tids": [ "2295335558786657109" ] }
+多店铺修改收件地址请求数据:
+  - - { "trade_id": "2295009973292657109","receiver_state": "浙江省","receiver_city": "杭州市","receiver_district": "上城区","receiver_address": "多店铺自动化测试修改收件地址,请请勿发货","receiver_zip": "","receiver_name": "蔡博","receiver_mobile": "15003777184","receiver_phone": "","tid": "2295009973292657109" }
+    - { "trade_id": "2293767720485657109","receiver_state": "浙江省","receiver_city": "杭州市","receiver_district": "上城区","receiver_address": "多店铺自动化测试修改收件地址,请请勿发货","receiver_zip": "","receiver_name": "蔡博","receiver_mobile": "15003777184","receiver_phone": "","tid": "2293767720485657109" }
+    - { "trade_id": "2293746624497657109","receiver_state": "浙江省","receiver_city": "杭州市","receiver_district": "上城区","receiver_address": "多店铺自动化测试修改收件地址,请请勿发货","receiver_zip": "","receiver_name": "蔡博","receiver_mobile": "15003777184","receiver_phone": "","tid": "2293746624497657109" }
+    - { "trade_id": "2293747632504657109","receiver_state": "浙江省","receiver_city": "杭州市","receiver_district": "上城区","receiver_address": "多店铺自动化测试修改收件地址,请请勿发货","receiver_zip": "","receiver_name": "蔡博","receiver_mobile": "15003777184","receiver_phone": "","tid": "2293747632504657109" }
+    - { "trade_id": "2295009973292657109","receiver_state": "浙江省","receiver_city": "杭州市","receiver_district": "上城区","receiver_address": "多店铺自动化测试修改收件地址,请请勿发货t_1497093616947_0277店铺","receiver_zip": "","receiver_name": "蔡博","receiver_mobile": "15003777184","receiver_phone": "","tid": "2295009973292657109" }
+    - { "trade_id": "2293767720485657109","receiver_state": "浙江省","receiver_city": "杭州市","receiver_district": "上城区","receiver_address": "多店铺自动化测试修改收件地址,请请勿发货t_1497093616947_0277店铺","receiver_zip": "","receiver_name": "蔡博","receiver_mobile": "15003777184","receiver_phone": "","tid": "2293767720485657109" }
+    - { "trade_id": "2293746624497657109","receiver_state": "浙江省","receiver_city": "杭州市","receiver_district": "上城区","receiver_address": "多店铺自动化测试修改收件地址,请请勿发货wangweilon店铺","receiver_zip": "","receiver_name": "蔡博","receiver_mobile": "15003777184","receiver_phone": "","tid": "2293746624497657109" }
+    - { "trade_id": "2293747632504657109","receiver_state": "浙江省","receiver_city": "杭州市","receiver_district": "上城区","receiver_address": "多店铺自动化测试修改收件地址,请请勿发货wangweilon店铺","receiver_zip": "","receiver_name": "蔡博","receiver_mobile": "15003777184","receiver_phone": "","tid": "2293747632504657109" }
+多店铺批量取号的请求数据:
+  - - - { "trade_ids": [ { "trade_id": "2293749828323657109","oids": [ "2293749828323657109" ] },{ "trade_id": "2295366770331657109","oids": [ "2295366770331657109" ] },{ "trade_id": "2295009145406657109","oids": [ "2295009145406657109" ] },{ "trade_id": "2295335558786657109","oids": [ "2295335558786657109" ] } ],"express_info_id": "0" }
+    #取号前的验证接口请求数据
+    - - { "type": 2,"do_type": "2","get_invoice_type": 2,"express_info_id": "0","printer_express": "QR-588 LABEL (副本 3)","printer_invoice": "QR-588 LABEL (副本 3)","checked_express": false,"checked_invoice": false,"trade_ids": [ { "trade_id": "2293749828323657109","oids": [ "2293749828323657109" ] },{ "trade_id": "2295366770331657109","oids": [ "2295366770331657109" ] },{ "trade_id": "2295009145406657109","oids": [ "2295009145406657109" ] },{ "trade_id": "2295335558786657109","oids": [ "2295335558786657109" ] } ] }
+    #批量取号接口的请求数据
+    - - {"list_type":"printList","time_type":"1","time":"","type":"3","keyword":"","keyword2":"","keyword3":"","order_number_type":"1","order_number":"2295009145406657109","is_get_invoice_sub":"1","is_print_express":"","is_print_invoice":"","is_message":"","is_unpack":"","is_not_refund":"","layId":"1003","seller_flag":[],"trade_id":[],"page":1,"limit":20,"receiver_name":"","buyer_nick":"","sort_type":"created","sort_order":"desc"}
+      - {"list_type":"printList","time_type":"1","time":"","type":"3","keyword":"","keyword2":"","keyword3":"","order_number_type":"1","order_number":"2295366770331657109","is_get_invoice_sub":"1","is_print_express":"","is_print_invoice":"","is_message":"","is_unpack":"","is_not_refund":"","layId":"1003","seller_flag":[],"trade_id":[],"page":1,"limit":20,"receiver_name":"","buyer_nick":"","sort_type":"created","sort_order":"desc"}
+      - {"list_type":"printList","time_type":"1","time":"","type":"3","keyword":"","keyword2":"","keyword3":"","order_number_type":"1","order_number":"2293749828323657109","is_get_invoice_sub":"1","is_print_express":"","is_print_invoice":"","is_message":"","is_unpack":"","is_not_refund":"","layId":"1003","seller_flag":[],"trade_id":[],"page":1,"limit":20,"receiver_name":"","buyer_nick":"","sort_type":"created","sort_order":"desc"}
+      - {"list_type":"printList","time_type":"1","time":"","type":"3","keyword":"","keyword2":"","keyword3":"","order_number_type":"1","order_number":"2295335558786657109","is_get_invoice_sub":"1","is_print_express":"","is_print_invoice":"","is_message":"","is_unpack":"","is_not_refund":"","layId":"1003","seller_flag":[],"trade_id":[],"page":1,"limit":20,"receiver_name":"","buyer_nick":"","sort_type":"created","sort_order":"desc"}
+      #打单列表查询接口的请求数据
+    - - {"oid":"2295009145406657109"}
+      - {"oid":"2295366770331657109"}
+      - {"oid":"2293749828323657109"}
+      - {"oid":"2295335558786657109"}
+    #打单列表查询接口的请求数据
